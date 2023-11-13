@@ -16,4 +16,6 @@ The GEPD employs a robust two-stage sampling strategy to select schools and publ
 
 ### Step-by-step! How to use this website for sampling!
 
+This video tutorial will guide you through the 'Sample' tab's features, demonstrating how to upload your data, select an appropriate sample size, and understand the resulting visualizations and data output.
+
 {{< video https://www.youtube.com/watch?v=pTuj57uXWlk width="450" height="350" >}}
