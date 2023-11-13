@@ -1,0 +1,12 @@
+name: gepd-sampling
+title: gepd-sampling
+username: arthurcheib
+account: arthurcheib
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10512646
+bundleId: 7923031
+url: https://arthurcheib.shinyapps.io/gepd-sampling/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
