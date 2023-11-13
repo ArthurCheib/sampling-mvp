@@ -1,0 +1,9 @@
+project: 
+  type: website
+  
+website: 
+  title: 'GEPD Sampling'
+  navbar: 
+    left: 
+      - tutorial.qmd
+      - sample.qmd
