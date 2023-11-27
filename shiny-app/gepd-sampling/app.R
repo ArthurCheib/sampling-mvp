@@ -13,14 +13,23 @@ ui <-  fluidPage(
   sidebarLayout(
     sidebarPanel(
       tags$p(style = "text-align: center; font-weight: bold;", 
-             "Please ensure your file includes the following columns: school_code, lat, long."),
-      fileInput("file1", "Choose CSV/Excel File",
+             "READ BEFORE SAMPLING"),
+      tags$p(style = "text-align: center;", 
+             "Please, download the sample template file below, which contains the fcolumns that must be present in the file you will be uploading."),
+      div(style = "text-align: center;",
+          downloadButton("download_template",
+                     "Download Template")),
+      fileInput("file1", "Choose CSV or Excel File",
                 accept = c(".csv", ".xlsx")),
-      numericInput("sample_size", "Select Sample Size", value = 50, min = 50, max = 300),
-      div(style = "text-align: center;", actionButton("run_sample", "Run Sample")),
+      numericInput("sample_size",
+                   "Select Sample Size", value = 100, min = 100, max = 350),
+      div(style = "text-align: center;",
+          actionButton("run_sample",
+                       "Run Sample")),
       tags$p(style = "text-align: center; font-weight: bold;",
              "Download your results here:"),
-      downloadButton("download_data", "Download Sampled File")
+      downloadButton("download_data",
+                     "Download Sampled File")
     ),
     mainPanel(
       tags$h3("Map with the Schools", style = "text-align: center;"),
