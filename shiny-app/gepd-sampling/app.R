@@ -46,8 +46,9 @@ ui <-  fluidPage(
                        "Run Sample")),
       tags$p(style = "text-align: center; font-weight: bold;",
              "Download your results here:"),
-      downloadButton("download_data",
-                     "Download Sampled File")
+      div(style = "text-align: center;",
+          downloadButton("download_data",
+                     "Download Sampled File"))
     ),
     mainPanel(
       tags$h3("Map with the Schools", style = "text-align: center;"),

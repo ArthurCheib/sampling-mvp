@@ -5,7 +5,7 @@ account: arthurcheib
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 10512646
-bundleId: 7976550
+bundleId: 7976554
 url: https://arthurcheib.shinyapps.io/gepd-sampling/
 version: 1
 asMultiple: FALSE
